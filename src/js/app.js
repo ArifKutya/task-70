@@ -1,5 +1,5 @@
 function myFunction() {
-  let image = document.querySelector(".image");
-  image.style.transform = "scale(1, 2)";
-  image.style.transition = "transform 0.60s ease";
+  let x = document.querySelector(".image");
+  x.style.transform ="scale(2)"
+  x.style.transition = "transform 3s ease";
 }
