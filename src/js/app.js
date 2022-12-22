@@ -8,7 +8,7 @@ let body = document.querySelector('body')
 let profile = document.createElement("div");
 profile.classList.add('name')
 let img = document.createElement("img")
-img.setAttribute("src", "./images/favicon.ico")
+img.setAttribute("src", "./images/img_avatar.png")
 img.classList.add('image')
 profile.appendChild(img)
 profile.appendChild(profile)
